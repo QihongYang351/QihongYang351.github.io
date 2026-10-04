@@ -17,8 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      NEXT_PUBLIC_BASE_PATH: /QihongYang.github.io
 
     steps:
       - name: Checkout repository
