@@ -144,7 +144,7 @@ html[data-locale^="zh"] {
 
 /* Dark mode styles */
 .dark {
-  --background: #0f172a;
+  --background: #000000;
   --foreground: #f8fafc;
   
   /* Adjust colors for dark mode */
@@ -156,21 +156,21 @@ html[data-locale^="zh"] {
   --accent-dark: #d4a562;
   
   /* Dark mode glass effect */
-  --glass-bg: rgba(15, 23, 42, 0.8);
+  --glass-bg: rgba(0, 0, 0, 0.8);
   --glass-border: rgba(255, 255, 255, 0.1);
   --glass-shadow: rgba(0, 0, 0, 0.5);
   
   /* Neutral colors for dark mode - properly inverted */
-  --neutral-50: #0f172a;
-  --neutral-100: #1e293b;
-  --neutral-200: #334155;
-  --neutral-300: #475569;
-  --neutral-400: #64748b;
-  --neutral-500: #94a3b8;
-  --neutral-600: #cbd5e1;
-  --neutral-700: #e2e8f0;
-  --neutral-800: #1e293b;
-  --neutral-900: #0f172a;
+  --neutral-50: #000000;
+  --neutral-100: #171717;
+  --neutral-200: #262626;
+  --neutral-300: #404040;
+  --neutral-400: #737373;
+  --neutral-500: #a3a3a3;
+  --neutral-600: #d4d4d4;
+  --neutral-700: #e5e5e5;
+  --neutral-800: #171717;
+  --neutral-900: #000000;
 }
 
 
@@ -244,12 +244,34 @@ body {
 }
 
 /* Card background utility */
+.hero-epigraph {
+  color: #f3e7d3;
+  font-weight: 400;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  text-wrap: balance;
+}
+
+.hero-epigraph-zh {
+  font-family: "STKaiti", "KaiTi", "Kaiti SC", "楷体", "Noto Serif CJK SC", serif;
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  letter-spacing: normal;
+  line-height: 1.9;
+}
+
+.hero-epigraph-en {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  font-style: italic;
+  font-size: clamp(1rem, 1.4vw, 1.2rem);
+  letter-spacing: normal;
+  line-height: 1.65;
+}
+
 .card-bg {
   background-color: #ffffff;
 }
 
 .dark .card-bg {
-  background-color: #1e293b;
+  background-color: #171717;
   /* Soften card borders in dark mode only */
-  border-color: rgba(148, 163, 184, 0.24);
+  border-color: rgba(163, 163, 163, 0.24);
 }

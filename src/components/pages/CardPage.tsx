@@ -3,6 +3,8 @@
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
 import { CardPageConfig } from '@/types/page';
+import PublicationCards from '@/components/publications/PublicationCards';
+import AwardsPage from '@/components/pages/AwardsPage';
 
 const markdownComponents = {
     p: ({ children }: React.ComponentProps<'p'>) => <p className="mb-3 last:mb-0">{children}</p>,
@@ -30,6 +32,27 @@ const markdownComponents = {
 };
 
 export default function CardPage({ config, embedded = false }: { config: CardPageConfig; embedded?: boolean }) {
+    if (config.layout === 'publications') return <PublicationCards config={config} />;
+    if (config.layout === 'awards') return <AwardsPage config={config} />;
+    if (config.layout === 'timeline') return (
+        <div>
+            <h1 className="text-4xl font-serif font-bold text-primary mb-8">{config.title}</h1>
+            <div className="border-t border-neutral-200 dark:border-neutral-700">
+                {config.items.map((item, index) => (
+                    <div key={`${item.title}-${item.date}`}>
+                    {item.section && item.section !== config.items[index - 1]?.section && <h2 className="text-2xl font-serif font-bold text-primary pt-8 pb-3 border-b border-neutral-200 dark:border-neutral-700">{item.section}</h2>}
+                    <article className="py-7 sm:py-8">
+                        <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 sm:gap-6">
+                            <h2 className="text-xl sm:text-2xl font-serif font-bold text-primary">{item.title}</h2>
+                            <p className="text-sm sm:text-base text-neutral-500 dark:text-neutral-400 shrink-0">{item.date}</p>
+                        </div>
+                        <p className="mt-3 text-lg text-neutral-600 dark:text-neutral-400">{item.subtitle}</p>
+                    </article>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}

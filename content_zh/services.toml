@@ -1,9 +1,13 @@
 type = "card"
 title = "学术服务"
-description = "专业服务与社区参与。"
+layout = "timeline"
 
 [[items]]
-title = "审稿人"
-subtitle = "某期刊"
-date = "2024"
-content = "参与审阅论文。"
+title = "政治学评介"
+subtitle = "中文学术部第二分部部长"
+date = "2023–至今"
+
+[[items]]
+title = "公共管理共同体"
+subtitle = "乡村治理小组组长"
+date = "2024–至今"

@@ -12,9 +12,17 @@ export interface PublicationPageConfig extends BasePageConfig {
 export interface TextPageConfig extends BasePageConfig {
     type: 'text';
     source: string;
+    download_directory?: string;
 }
 
 export interface CardItem {
+    stage?: 'undergraduate' | 'masters';
+    section?: string;
+    journal?: string;
+    authors?: string;
+    status?: string;
+    doi?: string;
+    apa?: string;
     title: string;
     subtitle?: string;
     date?: string;
@@ -26,5 +34,6 @@ export interface CardItem {
 
 export interface CardPageConfig extends BasePageConfig {
     type: 'card';
+    layout?: 'publications' | 'timeline' | 'awards';
     items: CardItem[];
 }

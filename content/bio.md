@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am Qihong Yang, an MSc student in Social Computing at Xi'an Jiaotong-Liverpool University, with graduation expected in March 2028. I received my Bachelor of Management in Social Affairs Administration from Northwest A&F University in 2025.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+My research interests include public policy, digital governance, and computational social science. 
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+Here, I share my reflections, explorations, and experiences as I grow as a researcher.

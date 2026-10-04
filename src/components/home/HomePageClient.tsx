@@ -1,6 +1,8 @@
 'use client';
 
-import Profile from '@/components/home/Profile';
+import HomeHero from '@/components/home/HomeHero';
+import Moments, { type MomentsConfig } from '@/components/home/Moments';
+import RecentWork, { type RecentWorkConfig } from '@/components/home/RecentWork';
 import About from '@/components/home/About';
 import SelectedPublications from '@/components/home/SelectedPublications';
 import News, { NewsItem } from '@/components/home/News';
@@ -31,6 +33,9 @@ type PageData =
   | { type: 'card'; id: string; config: CardPageConfig };
 
 export interface HomePageLocaleData {
+  statisticsUrl?: string;
+  recentWork?: RecentWorkConfig;
+  moments?: MomentsConfig;
   author: SiteConfig['author'];
   social: SiteConfig['social'];
   features: SiteConfig['features'];
@@ -54,18 +59,10 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
   }
 
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-background min-h-screen">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-        <div className="lg:col-span-1">
-          <Profile
-            author={data.author}
-            social={data.social}
-            features={data.features}
-            researchInterests={data.researchInterests}
-          />
-        </div>
-
-        <div className="lg:col-span-2 space-y-8">
+    <>
+      <HomeHero author={data.author} social={data.social} enableLikes={data.features.enable_likes} statisticsUrl={data.statisticsUrl} />
+    <div className="max-w-6xl mx-auto px-5 sm:px-8 py-12 sm:py-16 bg-background">
+        <div className="space-y-8">
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
@@ -122,7 +119,9 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
             </section>
           ))}
         </div>
-      </div>
+      {data.recentWork && <RecentWork config={data.recentWork} />}
+      {data.moments && <Moments config={data.moments} />}
     </div>
+    </>
   );
 }

@@ -15,6 +15,7 @@
 
 # next.js
 /.next/
+/.next-publish/
 /out/
 
 # production
@@ -26,6 +27,11 @@
 
 # debug
 npm-debug.log*
+preview.stdout.log
+preview.stderr.log
+.preview-statistics.json
+statistics.stdout.log
+statistics.stderr.log
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*

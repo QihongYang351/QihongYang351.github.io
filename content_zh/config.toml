@@ -1,19 +1,21 @@
 [site]
-title = "刘嘉乐"
-description = "某某大学博士生个人主页。"
-last_updated = "2025年11月18日"
+title = "杨其洪"
+description = "杨其洪的个人主页：公共政策、农业农村发展、数字治理与计算社会科学。"
+favicon = "/favicon.svg"
+last_updated = "2026-10-03"
 
 [author]
-name = "刘嘉乐"
-title = "博士生"
-institution = "某某大学"
+name = "杨其洪"
+title = "西北农林科技大学"
+institution = "西交利物浦大学"
+avatar = "/avatar.svg"
+background = "/home-background.jpg"
 
 [social]
-location = "城市，国家"
-location_details = [
-  "理科楼 123 室，",
-  "大学路，城市，国家"
-]
+email = "13358418026@163.com"
+orcid = "https://orcid.org/0009-0005-2015-444X"
+google_scholar = "https://scholar.google.com/citations?user=kMv5dQ8AAAAJ&hl=zh-CN"
+location = "中国福建 · 三明"
 
 [[navigation]]
 title = "关于我"
@@ -21,17 +23,12 @@ type = "page"
 target = "about"
 href = "/"
 
+
 [[navigation]]
-title = "论文"
+title = "研究成果"
 type = "page"
 target = "publications"
 href = "/publications"
-
-[[navigation]]
-title = "教学"
-type = "page"
-target = "teaching"
-href = "/teaching"
 
 [[navigation]]
 title = "奖项"
@@ -40,13 +37,20 @@ target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "服务"
+title = "学术服务"
 type = "page"
 target = "services"
 href = "/services"
+
+[[navigation]]
+title = "随笔"
+type = "page"
+target = "thinking"
+href = "/thinking"
 
 [[navigation]]
 title = "简历"
 type = "page"
 target = "cv"
 href = "/cv"
+

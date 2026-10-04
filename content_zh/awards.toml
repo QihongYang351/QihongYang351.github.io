@@ -1,27 +1,368 @@
 type = "card"
-title = "奖项"
-description = "我获得的荣誉与奖项。"
+layout = "awards"
+title = "奖项与荣誉"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
+stage = "undergraduate"
+section = "会议报告"
+title = "第十届公共行政评论青年学者论坛"
+subtitle = "口头汇报 · 中山大学中国公共管理研究中心、《公共行政评论》编辑部"
+date = "2026-01-02"
+
+[[items]]
+stage = "undergraduate"
+section = "奖学金"
+title = "专业三等奖学金"
+subtitle = "西北农林科技大学"
+date = "2025-03"
+
+[[items]]
+stage = "undergraduate"
+section = "奖学金"
+title = "专业二等奖学金"
+subtitle = "西北农林科技大学"
+date = "2023-10"
+
+[[items]]
+stage = "undergraduate"
+section = "奖学金"
+title = "国家励志奖学金"
+subtitle = "2021–2022学年 · 西北农林科技大学"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "奖学金"
+title = "专业三等奖学金"
+subtitle = "西北农林科技大学"
+date = "2022-05"
+
+[[items]]
+stage = "undergraduate"
+section = "荣誉称号"
+title = "科创之星"
+subtitle = "西北农林科技大学“百名校园之星”"
+date = "2024-12"
+
+[[items]]
+stage = "undergraduate"
+section = "荣誉称号"
+title = "优秀调研员"
+subtitle = "中国农业农村发展跟踪调查数据平台建设 · 北京大学相关研究机构"
+date = "2024-01"
+
+[[items]]
+stage = "undergraduate"
+section = "荣誉称号"
+title = "创新创业先进个人"
+subtitle = "西北农林科技大学人文社会发展学院"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "荣誉称号"
+title = "优秀学生干部"
+subtitle = "西北农林科技大学 · 2022–2023学年"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "荣誉称号"
+title = "优秀志愿者"
+subtitle = "杨凌示范区化建社区暑期关爱儿童志愿服务活动 · 共青团杨凌区委员会"
+date = "2023-09"
+
+[[items]]
+stage = "undergraduate"
+section = "荣誉称号"
+title = "优秀共青团员"
+subtitle = "西北农林科技大学 · 2022年度评选"
+date = "2023-04"
+
+[[items]]
+stage = "undergraduate"
+section = "荣誉称号"
+title = "优秀大学生"
+subtitle = "西北农林科技大学 · 2021–2022学年"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "荣誉称号"
+title = "科技创新标兵"
+subtitle = "西北农林科技大学"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "全国竞赛与社会实践"
+title = "第九届全国大学生生命科学竞赛（创新创业类）"
+subtitle = "二等奖 · 全国大学生生命科学竞赛委员会"
+date = "2024-08"
+
+[[items]]
+stage = "undergraduate"
+section = "全国竞赛与社会实践"
+title = "第十八届“挑战杯”红色专项活动"
+subtitle = "一等奖 · 共青团中央、中国科协、教育部、中国社会科学院、全国学联、贵州省人民政府"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "全国竞赛与社会实践"
+title = "中国国际大学生创新大赛（2023）"
+subtitle = "铜奖 · 中国国际大学生创新大赛组委会"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "全国竞赛与社会实践"
+title = "“三下乡”“返家乡”社会实践"
+subtitle = "优秀调研报告 · 共青团中央青年发展部"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "全国竞赛与社会实践"
+title = "广发证券大学生微创业行动"
+subtitle = "金奖 · 中国青年报社、KAB全国推广办公室、广东省广发证券社会公益基金会"
+date = "2023-09"
+
+[[items]]
+stage = "undergraduate"
+section = "省级竞赛"
+title = "第十六届“挑战杯”福建省竞赛红色专项活动"
+subtitle = "特等奖 · 共青团福建省委、福建省科协、福建省教育厅、福建社会科学院、福建省学联"
+date = "2023-11"
+
+[[items]]
+stage = "undergraduate"
+section = "省级竞赛"
+title = "第十三届全国大学生电子商务“三创”挑战赛陕西赛区"
+subtitle = "三等奖 · 全国大学生电子商务“三创”挑战赛竞赛组织委员会"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "省级竞赛"
+title = "第九届中国国际“互联网+”大学生创新创业大赛陕西赛区"
+subtitle = "主赛道银奖 · 中国国际“互联网+”大学生创新创业大赛陕西赛区组织委员会"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "省级竞赛"
+title = "第十四届“挑战杯”陕西省大学生课外学术科技作品竞赛"
+subtitle = "一等奖 · “挑战杯”陕西省大学生课外学术科技作品竞赛组委会"
+date = "2023-05"
+
+[[items]]
+stage = "undergraduate"
+section = "省级竞赛"
+title = "乡村振兴青年创意创新大赛"
+subtitle = "二等奖 · 陕西省青年创业就业基金会"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "省级竞赛"
+title = "第四届四川省公共管理案例挑战大赛"
+subtitle = "三等奖 · 四川省公共管理案例挑战大赛组委会"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "省级竞赛"
+title = "第十三届“北斗杯”科技创新大赛陕西赛区"
+subtitle = "本科生组北斗科技创意类三等奖 · 中国科学院空天信息创新研究院、卫星导航系统管理办公室学术交流中心、中国卫星导航年会组委会"
+date = "2022-06"
+
+[[items]]
+stage = "undergraduate"
+section = "校际竞赛"
+title = "第八届“策论中国（2024）”大赛"
+subtitle = "优胜奖 · 浙江大学"
+date = "2025-03"
+
+[[items]]
+stage = "undergraduate"
+section = "校际竞赛"
+title = "第十届全国大学生城市治理案例挑战赛（2024）"
+subtitle = "优胜奖 · 上海交通大学"
+date = "2024-10"
+
+[[items]]
+stage = "undergraduate"
+section = "校际竞赛"
+title = "第十七届“政务关注”全国社会调研大赛"
+subtitle = "三等奖 · 中山大学"
+date = "2024-06"
+
+[[items]]
+stage = "undergraduate"
+section = "校际竞赛"
+title = "第八届“求是杯”全国公共管理案例大赛"
+subtitle = "初赛入围61强 · 中国人民大学公共管理学院"
+date = "2024-05"
+
+[[items]]
+stage = "undergraduate"
+section = "校际竞赛"
+title = "第二届全国卫生健康治理案例大赛"
+subtitle = "本科生组一等奖 · 南京医科大学"
+date = "2023-11"
+
+[[items]]
+stage = "undergraduate"
+section = "校际竞赛"
+title = "第五届全国大学生城市管理竞赛暨电子科技大学第三届“智慧治理”公共案例分析大赛"
+subtitle = "本科生组一等奖 · 全国大学生城市管理竞赛组委会、电子科技大学"
+date = "2023-09"
+
+[[items]]
+stage = "undergraduate"
+section = "校际竞赛"
+title = "首届“翔宇杯”中国数字政府建设案例大赛"
+subtitle = "本科生组三等奖 · 南开大学"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "校际竞赛"
+title = "第三届大学生社会保障案例大赛"
+subtitle = "二等奖 · 江苏省老年学会、南京大学政府管理学院、南京农业大学公共管理学院、河海大学公共管理学院、南京师范大学金陵女子学院"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "校级优秀毕业论文（设计）"
+subtitle = "2025届 · 西北农林科技大学"
+date = "2025-06"
+
+[[items]]
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "百篇优秀毕业论文（设计）"
+subtitle = "2025届 · 西北农林科技大学"
+date = "2025-06"
+
+[[items]]
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "西安交通大学“人卫杯”本科优秀毕业论文"
+subtitle = "三等奖 · 西安交通大学"
 date = "2025"
-content = "奖项说明。"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2024"
-content = "奖项说明。"
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "第十届创新训练项目学术海报展示与竞赛"
+subtitle = "三等奖 · 西北农林科技大学"
+date = "2023-12"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2023"
-content = "奖项说明。"
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "大学生暑期社会实践优秀调研报告"
+subtitle = "一等奖 · 西北农林科技大学"
+date = "2023-11"
 
 [[items]]
-title = "示例奖项"
-subtitle = "颁发机构"
-date = "2022"
-content = "奖项说明。"
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "大学生暑期社会实践优秀团队"
+subtitle = "二等奖 · 共青团西北农林科技大学委员会"
+date = "2023-11"
+
+[[items]]
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "第五届全国大学生土地国情调查大赛校内选拔赛"
+subtitle = "一等奖 · 西北农林科技大学"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "西北农林科技大学“挑战杯”竞赛"
+subtitle = "特等奖 · 西北农林科技大学"
+date = "2023-03"
+
+[[items]]
+stage = "undergraduate"
+section = "校内奖项与毕业论文荣誉"
+title = "跃平优秀论文奖"
+subtitle = "二等奖 · 西北农林科技大学人文社会发展学院"
+date = "2022-06"
+
+[[items]]
+stage = "undergraduate"
+section = "学术论坛奖项"
+title = "第五届“博学”研究生学术论坛"
+subtitle = "优秀奖 · 华南理工大学公共管理学院"
+date = "2025-12"
+
+[[items]]
+stage = "undergraduate"
+section = "学术论坛奖项"
+title = "“斋明笃行”学术论坛暨清华大学第788期博士生学术论坛"
+subtitle = "学术新锐奖（4/16） · 清华大学研究生院、党委研究生工作部、社会科学学院、研究生会"
+date = "2025-05"
+
+[[items]]
+stage = "undergraduate"
+section = "学术论坛奖项"
+title = "“人类决策与人工智能：选择与治理”国际研讨会"
+subtitle = "优秀奖 · 华南理工大学"
+date = "2025-03"
+
+[[items]]
+stage = "undergraduate"
+section = "学术论坛奖项"
+title = "“福彩杯”数字时代的公共治理创新学术论坛暨第八届公共管理研究生学术年会"
+subtitle = "硕士组特等奖 · 厦门大学、沈阳师范大学"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "学术论坛奖项"
+title = "陕西省高校公共管理学子论坛暨第九届“启航杯”征文比赛"
+subtitle = "三等奖 · 西北大学"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "学术论坛奖项"
+title = "第二届“大夏”全国政治学本科生论坛"
+subtitle = "优秀奖 · 华东师范大学"
+date = "2023-11"
+
+[[items]]
+stage = "undergraduate"
+section = "会议报告"
+title = "首届华中科技大学—香港科技大学公共政策青年学者研讨会"
+subtitle = "口头报告 · 华中科技大学、香港科技大学"
+date = "2025-12"
+
+[[items]]
+stage = "undergraduate"
+section = "会议报告"
+title = "“城乡社会发展与农业农村现代化”论坛暨中国社会学会发展社会学专委会年会"
+subtitle = "口头报告 · 西北农林科技大学"
+date = "2025-04"
+
+[[items]]
+stage = "undergraduate"
+section = "会议报告"
+title = "第七届本硕博牧野论坛"
+subtitle = "口头报告 · 河南师范大学"
+date = "2024-01"
+
+[[items]]
+stage = "undergraduate"
+section = "会议报告"
+title = "中国城市管理发展年会"
+subtitle = "论文录用及报告 · 中国区域科学协会"
+date = "2023-09"
+

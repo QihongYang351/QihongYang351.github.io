@@ -1,27 +1,368 @@
 type = "card"
-title = "Awards"
-description = "Honors and awards I have received."
+layout = "awards"
+title = "Awards & Honors"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+stage = "undergraduate"
+section = "Conference Presentations"
+title = "10th Journal of Public Administration Young Scholars Forum"
+subtitle = "Oral Presentation · Center for Chinese Public Administration Research, Sun Yat-sen University · Editorial Office of the Journal of Public Administration"
+date = "2026-01-02"
+
+[[items]]
+stage = "undergraduate"
+section = "Scholarships"
+title = "Third-Class Merit Scholarship"
+subtitle = "Northwest A&F University"
+date = "2025-03"
+
+[[items]]
+stage = "undergraduate"
+section = "Scholarships"
+title = "Second-Class Merit Scholarship"
+subtitle = "Northwest A&F University"
+date = "2023-10"
+
+[[items]]
+stage = "undergraduate"
+section = "Scholarships"
+title = "National Encouragement Scholarship"
+subtitle = "Academic year 2021–2022 · Northwest A&F University"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Scholarships"
+title = "Third-Class Merit Scholarship"
+subtitle = "Northwest A&F University"
+date = "2022-05"
+
+[[items]]
+stage = "undergraduate"
+section = "Honorary Titles"
+title = "Campus Star of Innovation"
+subtitle = "Top 100 Campus Stars Program · Northwest A&F University"
+date = "2024-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Honorary Titles"
+title = "Outstanding Field Investigator"
+subtitle = "China Agricultural and Rural Development Tracking Survey Data Platform · Peking University"
+date = "2024-01"
+
+[[items]]
+stage = "undergraduate"
+section = "Honorary Titles"
+title = "Advanced Individual in Innovation and Entrepreneurship"
+subtitle = "College of Humanities and Social Development, Northwest A&F University"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Honorary Titles"
+title = "Outstanding Student Leader"
+subtitle = "Northwest A&F University · Academic year 2022–2023"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Honorary Titles"
+title = "Outstanding Volunteer"
+subtitle = "Summer Caring-for-Children Program · Huajian Community, Yangling · CYLC Yangling District Committee"
+date = "2023-09"
+
+[[items]]
+stage = "undergraduate"
+section = "Honorary Titles"
+title = "Outstanding CYLC Member"
+subtitle = "Northwest A&F University · 2022 selection"
+date = "2023-04"
+
+[[items]]
+stage = "undergraduate"
+section = "Honorary Titles"
+title = "Outstanding Student"
+subtitle = "Northwest A&F University · Academic year 2021–2022"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Honorary Titles"
+title = "Model Student in Scientific and Technological Innovation"
+subtitle = "Northwest A&F University"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "National Competitions & Social Practice"
+title = "9th National Undergraduate Life Sciences Competition — Innovation & Entrepreneurship"
+subtitle = "Second Prize · National Undergraduate Life Sciences Competition Committee"
+date = "2024-08"
+
+[[items]]
+stage = "undergraduate"
+section = "National Competitions & Social Practice"
+title = "18th Challenge Cup — Red-themed Special Track"
+subtitle = "First Prize · CYLC Central Committee, China Association for Science and Technology, Ministry of Education, Chinese Academy of Social Sciences, All-China Students’ Federation & Guizhou Provincial Government"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "National Competitions & Social Practice"
+title = "China International College Students’ Innovation Competition (2023)"
+subtitle = "Bronze Award · China International College Students’ Innovation Competition Organizing Committee"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "National Competitions & Social Practice"
+title = "Three Going-to-the-Countryside & Returning Home Social Practice Program"
+subtitle = "Outstanding Research Report · Youth Development Department, CYLC Central Committee"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "National Competitions & Social Practice"
+title = "GF Securities College Student Micro-entrepreneurship Initiative"
+subtitle = "Gold Award · China Youth Daily, KAB National Promotion Office & Guangdong GF Securities Social Welfare Foundation"
+date = "2023-09"
+
+[[items]]
+stage = "undergraduate"
+section = "Provincial Competitions"
+title = "16th Challenge Cup — Fujian Provincial Competition, Red-themed Special Track"
+subtitle = "Grand Prize · CYLC Fujian Provincial Committee, Fujian Association for Science and Technology, Fujian Department of Education, Fujian Academy of Social Sciences & Fujian Students’ Federation"
+date = "2023-11"
+
+[[items]]
+stage = "undergraduate"
+section = "Provincial Competitions"
+title = "13th National College Student E-commerce Innovation, Creativity & Entrepreneurship Challenge — Shaanxi"
+subtitle = "Third Prize · National College Student E-commerce Innovation, Creativity & Entrepreneurship Challenge Organizing Committee"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "Provincial Competitions"
+title = "9th China International Internet+ Innovation & Entrepreneurship Competition — Shaanxi"
+subtitle = "Silver Award · Main Track · China International Internet+ Innovation & Entrepreneurship Competition — Shaanxi Organizing Committee"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "Provincial Competitions"
+title = "14th Challenge Cup — Shaanxi Provincial Competition"
+subtitle = "First Prize · Challenge Cup Shaanxi Provincial Competition Organizing Committee"
+date = "2023-05"
+
+[[items]]
+stage = "undergraduate"
+section = "Provincial Competitions"
+title = "Shaanxi Youth Rural Revitalization Creativity & Innovation Competition"
+subtitle = "Second Prize · Shaanxi Youth Entrepreneurship and Employment Foundation"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Provincial Competitions"
+title = "4th Sichuan Provincial Public Management Case Challenge"
+subtitle = "Third Prize · Sichuan Provincial Public Management Case Challenge Organizing Committee"
+date = "2022-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Provincial Competitions"
+title = "13th BeiDou Cup — Shaanxi Division"
+subtitle = "Third Prize · Undergraduate Technology Creativity Track · Aerospace Information Research Institute, Chinese Academy of Sciences; Academic Exchange Center of the Satellite Navigation System Management Office; China Satellite Navigation Conference Organizing Committee"
+date = "2022-06"
+
+[[items]]
+stage = "undergraduate"
+section = "Inter-University Competitions"
+title = "8th Celun China (2024) Competition"
+subtitle = "Merit Award · Zhejiang University"
+date = "2025-03"
+
+[[items]]
+stage = "undergraduate"
+section = "Inter-University Competitions"
+title = "10th National Undergraduate Urban Governance Case Challenge (2024)"
+subtitle = "Merit Award · Shanghai Jiao Tong University"
+date = "2024-10"
+
+[[items]]
+stage = "undergraduate"
+section = "Inter-University Competitions"
+title = "17th Government Affairs in Focus National Social Survey Competition"
+subtitle = "Third Prize · Sun Yat-sen University"
+date = "2024-06"
+
+[[items]]
+stage = "undergraduate"
+section = "Inter-University Competitions"
+title = "8th Qiushi Cup National Public Management Case Competition"
+subtitle = "Top 61 · Preliminary Round · School of Public Administration and Policy, Renmin University of China"
+date = "2024-05"
+
+[[items]]
+stage = "undergraduate"
+section = "Inter-University Competitions"
+title = "2nd National Health Governance Case Competition"
+subtitle = "First Prize · Undergraduate Track · Nanjing Medical University"
+date = "2023-11"
+
+[[items]]
+stage = "undergraduate"
+section = "Inter-University Competitions"
+title = "5th National Undergraduate Urban Management Competition & UESTC 3rd Smart Governance Public Case Analysis Competition"
+subtitle = "First Prize · Undergraduate Track · National Undergraduate Urban Management Competition Organizing Committee & University of Electronic Science and Technology of China"
+date = "2023-09"
+
+[[items]]
+stage = "undergraduate"
+section = "Inter-University Competitions"
+title = "1st Xiangyu Cup China Digital Government Case Competition"
+subtitle = "Third Prize · Undergraduate Track · Nankai University"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "Inter-University Competitions"
+title = "3rd College Student Social Security Case Competition"
+subtitle = "Second Prize · Jiangsu Gerontological Society; School of Government, Nanjing University; College of Public Administration, Nanjing Agricultural University; School of Public Administration, Hohai University; Ginling College, Nanjing Normal University"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "University-Level Outstanding Undergraduate Thesis"
+subtitle = "Class of 2025 · Northwest A&F University"
+date = "2025-06"
+
+[[items]]
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "Top 100 Outstanding Undergraduate Theses"
+subtitle = "Class of 2025 · Northwest A&F University"
+date = "2025-06"
+
+[[items]]
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "Xi’an Jiaotong University Renwei Cup Outstanding Undergraduate Thesis"
+subtitle = "Third Prize · Xi’an Jiaotong University"
 date = "2025"
-content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "10th Innovation Training Program Poster Exhibition & Competition"
+subtitle = "Third Prize · Northwest A&F University"
+date = "2023-12"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "Summer Social Practice Outstanding Research Report"
+subtitle = "First Prize · Northwest A&F University"
+date = "2023-11"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "Summer Social Practice Outstanding Team"
+subtitle = "Second Prize · CYLC Committee of Northwest A&F University"
+date = "2023-11"
+
+[[items]]
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "University Selection of the 5th National Undergraduate Land Survey Competition"
+subtitle = "First Prize · Northwest A&F University"
+date = "2023-08"
+
+[[items]]
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "Northwest A&F University Challenge Cup Competition"
+subtitle = "Grand Prize · Northwest A&F University"
+date = "2023-03"
+
+[[items]]
+stage = "undergraduate"
+section = "University Awards & Thesis Honors"
+title = "Yueping Outstanding Paper Award"
+subtitle = "Second Prize · College of Humanities and Social Development, Northwest A&F University"
+date = "2022-06"
+
+[[items]]
+stage = "undergraduate"
+section = "Academic Forum Awards"
+title = "5th Boxue Postgraduate Academic Forum"
+subtitle = "Excellence Award · School of Public Administration, South China University of Technology"
+date = "2025-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Academic Forum Awards"
+title = "Tsinghua University Doctoral Academic Forum — No. 788"
+subtitle = "Academic Rising Star Award (4/16) · Graduate School, Graduate Student Affairs Department, School of Social Sciences & Graduate Student Union, Tsinghua University"
+date = "2025-05"
+
+[[items]]
+stage = "undergraduate"
+section = "Academic Forum Awards"
+title = "International Workshop on Human Decision-Making and AI: Choice and Governance"
+subtitle = "Excellence Award · South China University of Technology"
+date = "2025-03"
+
+[[items]]
+stage = "undergraduate"
+section = "Academic Forum Awards"
+title = "Fucai Cup Forum on Public Governance Innovation in the Digital Era & 8th Public Management Master’s Annual Conference"
+subtitle = "Grand Prize · Master’s Track · Xiamen University & Shenyang Normal University"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Academic Forum Awards"
+title = "Shaanxi Forum for Public Administration Students & 9th Qihang Cup Essay Competition"
+subtitle = "Third Prize · Northwest University"
+date = "2023-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Academic Forum Awards"
+title = "2nd Daxia National Undergraduate Political Science Forum"
+subtitle = "Excellence Award · East China Normal University"
+date = "2023-11"
+
+[[items]]
+stage = "undergraduate"
+section = "Conference Presentations"
+title = "1st HUST–HKUST Young Scholars Workshop in Public Policy"
+subtitle = "Oral Presentation · Huazhong University of Science and Technology & Hong Kong University of Science and Technology"
+date = "2025-12"
+
+[[items]]
+stage = "undergraduate"
+section = "Conference Presentations"
+title = "Forum on Urban–Rural Social Development and Agricultural & Rural Modernization & Development Sociology Annual Meeting"
+subtitle = "Oral Presentation · Northwest A&F University"
+date = "2025-04"
+
+[[items]]
+stage = "undergraduate"
+section = "Conference Presentations"
+title = "7th Muye Forum — BA, MA & PhD"
+subtitle = "Oral Presentation · Henan Normal University"
+date = "2024-01"
+
+[[items]]
+stage = "undergraduate"
+section = "Conference Presentations"
+title = "China Annual Conference on Urban Management Development"
+subtitle = "Accepted and Presented · Regional Science Association of China"
+date = "2023-09"
+

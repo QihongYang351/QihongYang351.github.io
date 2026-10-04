@@ -1,4 +1,81 @@
-type = "publication"
+type = "card"
+layout = "publications"
 title = "Publications"
-description = "A collection of my research work."
-source = "publications.bib"
+description = "Published articles, forthcoming work, and manuscripts."
+
+[[items]]
+section = "forthcoming"
+title = "Policy Reinvention and Policy Performance within Vertical Authority Structures: Evidence from China's Rural Revitalization Policy"
+authors = "Qihong Yang, Yupan Zhao, Chunpeng Wang, Luning Liu"
+journal = "Public Policy and Administration"
+date = "2026"
+apa = "Yang, Q., Zhao, Y., Wang, C., & Liu, L. (in press). Policy reinvention and policy performance within vertical authority structures: Evidence from China's rural revitalization policy. *Public Policy and Administration*."
+status = "In press"
+
+[[items]]
+section = "published"
+title = "Promoting Sustainable Community Governance: Policy Perception and Multi-Dimensional Embeddedness Among Food Delivery Riders in China"
+authors = "Lige Liu, Peng Qi, Qihong Yang"
+journal = "Sustainability"
+date = "2026"
+apa = "Liu L, Qi P, Yang Q. Promoting Sustainable Community Governance: Policy Perception and Multi-Dimensional Embeddedness Among Food Delivery Riders in China. *Sustainability*. 2026; 18(11):5302. https://doi.org/10.3390/su18115302"
+doi = "10.3390/su18115302"
+
+[[items]]
+section = "published"
+title = "乡村治理数字化转型中“价值共创”的实践逻辑与路径指向——基于F省Z市“数字坂里”的实证考察"
+authors = "胡卫卫，杨其洪"
+journal = "农林经济管理学报"
+date = "2024"
+apa = "胡卫卫 & 杨其洪. (2024). 乡村治理数字化转型中“价值共创”的实践逻辑与路径指向——基于F省Z市“数字坂里”的实证考察. *农林经济管理学报, 23*(4), 405–413. https://doi.org/10.16195/j.cnki.cn36-1328/f.2024.04.43"
+doi = "10.16195/j.cnki.cn36-1328/f.2024.04.43"
+
+[[items]]
+section = "published"
+title = "基于三螺旋理论的农业科技创新人才培养模式与机制研究"
+authors = "胡卫卫，杨其洪"
+journal = "高等农业教育"
+date = "2022"
+apa = "胡卫卫 & 杨其洪. (2022). 基于三螺旋理论的农业科技创新人才培养模式与机制研究. *高等农业教育*, (5), 57–65. https://doi.org/10.13839/j.cnki.hae.2022.5.011"
+doi = "10.13839/j.cnki.hae.2022.5.011"
+
+[[items]]
+section = "working"
+title = "Reshaping Grounded Theory Coding: The Paradigmatic Shift and Methodological Reconstruction of Computational Grounded Theory"
+authors = "Yupan Zhao, Chunpeng Wang, Nan Zhang, Qihong Yang, Luning Liu & Tao Sun*"
+subtitle = "Journal of Public Management"
+date = "2026"
+status = "Forthcoming"
+
+[[items]]
+section = "working"
+title = "Adaptive Action: A Study on the Implementation Logic of Resource-Constrained Governments in Achieving Policy Breakthroughs"
+authors = "Yupan Zhao, Qihong Yang*, Chunpeng Wang & Tao Sun"
+subtitle = "Chinese Public Administration"
+date = "2026"
+status = "R&R"
+
+[[items]]
+section = "working"
+title = "Can Artificial Intelligence Mitigate Conflicts in Public-Private Collaboration? Experimental Evidence on Solution Development Approaches and Boundary Conditions"
+authors = "Yupan Zhao, Chunpeng Wang, Rong Ge, Qihong Yang & Chunhua He*"
+subtitle = "Technology in Society"
+date = "2026"
+status = "Under review"
+
+[[items]]
+section = "working"
+title = "Marriage Payment Drive Coerced Homeownership but Prevent Urban Settlement: Evidence from Rural China"
+authors = "Jielun Yang, Qihong Yang, Yupan Zhao & Yaxin Zhao*"
+subtitle = "Cities"
+date = "2026"
+status = "Under review"
+
+[[items]]
+section = "working"
+title = "The Development and Application of the Agent-Based Modeling Method in Public Administration Research"
+authors = "Yupan Zhao, Jiaying Wang, Qihong Yang & Chunpeng Wang*"
+subtitle = "YueLu Public Governance"
+date = "2026"
+status = "Under review"
+

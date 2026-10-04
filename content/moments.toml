@@ -1,0 +1,10 @@
+title = "Moments"
+description = "Places, people, and experiences beyond research."
+items = []
+
+# Add photos here after placing image files in public/moments/.
+# [[items]]
+# image = "/moments/photo.jpg"
+# title = "Photo caption"
+# location = "City, Country"
+# date = "2026"

@@ -1,3 +1,4 @@
 type = "text"
 title = "CV"
 source = "cv.md"
+download_directory = "cv/en"

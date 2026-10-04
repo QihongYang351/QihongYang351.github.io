@@ -1,0 +1,10 @@
+title = "瞬间"
+description = "记录研究之外的人、风景与经历。"
+items = []
+
+# 将照片放入 public/moments/，然后在这里添加记录。
+# [[items]]
+# image = "/moments/photo.jpg"
+# title = "照片说明"
+# location = "拍摄地点"
+# date = "2026"

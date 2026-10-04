@@ -1,5 +1,7 @@
 import { getConfig } from '@/lib/config';
-import { getMarkdownContent, getBibtexContent, getTomlContent, getPageConfig } from '@/lib/content';
+import type { MomentsConfig } from '@/components/home/Moments';
+import type { RecentWorkConfig } from '@/components/home/RecentWork';
+import { getMarkdownContent, getTextPageContent, getBibtexContent, getTomlContent, getPageConfig } from '@/lib/content';
 import { parseBibTeX } from '@/lib/bibtexParser';
 import HomePageClient, { type HomePageLocaleData } from '@/components/home/HomePageClient';
 import { Publication } from '@/types/publication';
@@ -104,7 +106,7 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
             type: 'text',
             id: item.target,
             config: textConfig,
-            content: getMarkdownContent(textConfig.source, locale),
+            content: getTextPageContent(textConfig, locale),
           } as PageData;
         }
 
@@ -128,6 +130,9 @@ function loadPageDataForLocale(locale: string | undefined): HomePageLocaleData {
   }
 
   return {
+    moments: getTomlContent<MomentsConfig>('moments.toml', locale) || undefined,
+    recentWork: getTomlContent<RecentWorkConfig>('recent-work.toml', locale) || undefined,
+    statisticsUrl: process.env.NEXT_PUBLIC_STATISTICS_URL || (process.env.NODE_ENV === 'development' ? 'http://127.0.0.1:3002/statistics' : undefined),
     author: localeConfig.author,
     social: localeConfig.social,
     features: localeConfig.features,

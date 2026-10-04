@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { parse } from 'smol-toml';
+import type { TextPageConfig } from '@/types/page';
 
 const DEFAULT_CONTENT_DIR = 'content';
 
@@ -44,6 +45,30 @@ function readFirstAvailableFile(filename: string, locale?: string): string {
 
 export function getMarkdownContent(filename: string, locale?: string): string {
   return readFirstAvailableFile(filename, locale);
+}
+
+export function getTextPageContent(config: TextPageConfig, locale?: string): string {
+  if (!config.download_directory) return getMarkdownContent(config.source, locale);
+  const publicRoot = path.resolve(process.cwd(), 'public');
+  const directory = path.resolve(publicRoot, config.download_directory);
+  const relative = path.relative(publicRoot, directory);
+  if (relative.startsWith('..') || path.isAbsolute(relative)) throw new Error('Download directory must be inside public/');
+  const chinese = locale?.startsWith('zh');
+  let files: string[];
+  try {
+    files = fs.readdirSync(directory, { withFileTypes: true })
+      .filter(entry => entry.isFile() && !entry.name.startsWith('~$') && /\.(docx|doc)$/i.test(entry.name))
+      .map(entry => entry.name).sort();
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code !== 'ENOENT') throw error;
+    files = [];
+  }
+  if (!files.length) return chinese ? '暂无简历文件。' : 'No CV file available yet.';
+  return files.map(filename => {
+    const url = '/' + path.join(relative, filename).split(path.sep).map(encodeURIComponent).join('/');
+    const label = files.length === 1 ? (chinese ? '中文简历' : 'English CV') : filename.replace(/\.(docx|doc)$/i, '').replace(/[\[\]\\]/g, '\\$&');
+    return `- [${label}](${url})`;
+  }).join('\n');
 }
 
 export function getBibtexContent(filename: string, locale?: string): string {

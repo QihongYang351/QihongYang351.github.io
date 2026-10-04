@@ -1,9 +1,13 @@
 type = "card"
-title = "Services"
-description = "Professional services and community involvement."
+title = "Academic Service"
+layout = "timeline"
 
 [[items]]
-title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+title = "Political Science Review"
+subtitle = "Head of the Second Division, Chinese Academic Department"
+date = "2023–Present"
+
+[[items]]
+title = "China Public Management Community"
+subtitle = "Leader of the Rural Governance Group"
+date = "2024–Present"
