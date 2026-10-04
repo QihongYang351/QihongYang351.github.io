@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import { publicPath } from '@/lib/public-path';
 import ReactMarkdown from 'react-markdown';
 import { Search, Copy, Check, BookOpen, ExternalLink, Plus, Minus } from 'lucide-react';
 import type { CardPageConfig } from '@/types/page';
@@ -49,7 +50,7 @@ export default function PublicationCards({ config }: { config: CardPageConfig })
                 <div className="divide-y divide-neutral-200 dark:divide-neutral-800">{group.map(item => <article key={item.title} className="py-7 sm:py-8">
                     <div className={item.journal ? 'grid md:grid-cols-[180px_minmax(0,1fr)] gap-6 items-start' : ''}>
                         {item.journal && <div className="aspect-[3/4] max-w-[180px] w-full overflow-hidden border border-neutral-200 dark:border-neutral-700">
-                            {item.image ? <Image src={item.image} alt={item.journal} width={180} height={240} className="h-full w-full object-cover" /> : <div className="h-full flex flex-col justify-between bg-neutral-100 dark:bg-neutral-800 p-5">
+                            {item.image ? <Image src={publicPath(item.image)} alt={item.journal} width={180} height={240} className="h-full w-full object-cover" /> : <div className="h-full flex flex-col justify-between bg-neutral-100 dark:bg-neutral-800 p-5">
                                 <span className="text-xs tracking-widest uppercase text-neutral-500">{zh ? '期刊' : 'Journal'}</span>
                                 <span className="font-serif text-xl font-bold text-primary leading-snug break-words">{item.journal}</span>
                                 <span className="text-sm text-neutral-500">{item.date}</span>

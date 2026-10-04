@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { publicPath } from '@/lib/public-path';
 import Link from 'next/link';
 import { Mail, GraduationCap, ExternalLink, Heart, Eye } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -60,7 +61,7 @@ export default function HomeHero({ author, social, enableLikes, statisticsUrl }:
         } catch { /* The current session can still use the button. */ }
     }
     return <header className="relative isolate overflow-hidden min-h-[460px] sm:min-h-[520px] flex items-center">
-        <Image src={author.background || '/home-background.jpg'} alt="" fill priority sizes="100vw" className="object-cover object-center -z-20" />
+        <Image src={publicPath(author.background || '/home-background.jpg')} alt="" fill priority sizes="100vw" className="object-cover object-center -z-20" />
         <div className="absolute inset-0 -z-10 bg-gradient-to-r from-black/75 via-black/50 to-black/20" />
         <div className="w-full max-w-6xl mx-auto px-5 sm:px-8 py-16 text-white">
             <p className="text-sm sm:text-base text-white/85 mb-5">{author.institution} · {author.title}</p>

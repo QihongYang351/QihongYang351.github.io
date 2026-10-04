@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { publicPath } from '@/lib/public-path';
 import './globals.css';
 import Navigation from '@/components/layout/Navigation';
 import Footer from '@/components/layout/Footer';
@@ -24,7 +25,7 @@ export async function generateMetadata(): Promise<Metadata> {
     creator: config.author.name,
     publisher: config.author.name,
     icons: {
-      icon: config.site.favicon,
+      icon: publicPath(config.site.favicon),
     },
     openGraph: {
       type: 'website',
@@ -131,7 +132,7 @@ export default function RootLayout({
   return (
     <html lang={runtimeI18n.defaultLocale} className="scroll-smooth" suppressHydrationWarning>
       <head>
-        <link rel="icon" href={config.site.favicon} type="image/svg+xml" />
+        <link rel="icon" href={publicPath(config.site.favicon)} type="image/svg+xml" />
         <link rel="dns-prefetch" href="https://jialeliu.com" />
         <link rel="preconnect" href="https://jialeliu.com" crossOrigin="" />
         <link

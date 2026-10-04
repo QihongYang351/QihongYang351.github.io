@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { publicPath } from '@/lib/public-path';
 import { ImageIcon } from 'lucide-react';
 import { useLocaleStore } from '@/lib/stores/localeStore';
 
@@ -28,7 +29,7 @@ export default function Moments({ config }: { config: MomentsConfig }) {
         <div tabIndex={0} aria-label={config.title} className="flex gap-5 overflow-x-auto snap-x snap-mandatory pb-5 focus-visible:outline focus-visible:outline-accent">
             {config.items.length ? config.items.map(item => <figure key={item.image} className="w-[280px] sm:w-[320px] shrink-0 snap-start">
                 <div className="relative aspect-[4/3] overflow-hidden bg-neutral-100 dark:bg-neutral-800">
-                    <Image src={item.image} alt={item.alt || item.title} fill sizes="(max-width: 640px) 280px, 320px" className="object-cover" />
+                    <Image src={publicPath(item.image)} alt={item.alt || item.title} fill sizes="(max-width: 640px) 280px, 320px" className="object-cover" />
                 </div>
                 <figcaption className="mt-3 text-sm leading-relaxed">
                     <p className="text-primary font-medium">{item.title}</p>

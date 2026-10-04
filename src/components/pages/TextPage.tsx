@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import ReactMarkdown from 'react-markdown';
+import { publicPath } from '@/lib/public-path';
 import { TextPageConfig } from '@/types/page';
 
 interface TextPageProps {
@@ -37,6 +38,7 @@ export default function TextPage({ config, content, embedded = false }: TextPage
                         a: ({ ...props }) => (
                             <a
                                 {...props}
+                                href={props.href ? publicPath(props.href) : undefined}
                                 download={/\.(docx|doc)(?:$|[?#])/i.test(props.href || '') ? true : undefined}
                                 target="_blank"
                                 rel="noopener noreferrer"
