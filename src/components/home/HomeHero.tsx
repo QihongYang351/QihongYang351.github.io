@@ -11,7 +11,6 @@ import { useLocaleStore } from '@/lib/stores/localeStore';
 export default function HomeHero({ author, social, enableLikes, statisticsUrl }: { author: SiteConfig['author']; social: SiteConfig['social']; enableLikes: boolean; statisticsUrl?: string }) {
     const zh = useLocaleStore(state => state.locale) === 'zh';
     const [liked, setLiked] = useState(false);
-    const [counts, setCounts] = useState<{ likes: number; visitors: number } | null>(null);
     const [busy, setBusy] = useState(false);
     const [statisticsError, setStatisticsError] = useState(false);
     function visitorId() {
@@ -26,7 +25,6 @@ export default function HomeHero({ author, social, enableLikes, statisticsUrl }:
         if (!response.ok) throw new Error('Statistics unavailable');
         const result = await response.json();
         if (!Number.isInteger(result.likes) || result.likes < 0 || !Number.isInteger(result.visitors) || result.visitors < 0 || typeof result.liked !== 'boolean') throw new Error('Invalid statistics');
-        setCounts({ likes: result.likes, visitors: result.visitors });
         setLiked(result.liked);
         setStatisticsError(false);
         localStorage.setItem('qihong-website-user-liked', String(result.liked));
@@ -77,8 +75,8 @@ export default function HomeHero({ author, social, enableLikes, statisticsUrl }:
                 {social.email && <a href={`mailto:${social.email}`} className="inline-flex items-center gap-2 hover:text-white"><Mail className="h-4 w-4" />{zh ? '邮箱' : 'Email'}</a>}
                 {social.google_scholar && <a href={social.google_scholar} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-white"><GraduationCap className="h-4 w-4" />{zh ? '谷歌学术' : 'Google Scholar'}</a>}
                 {social.orcid && <a href={social.orcid} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 hover:text-white"><ExternalLink className="h-4 w-4" />ORCID</a>}
-                {enableLikes && <button type="button" onClick={toggleLike} disabled={busy} aria-pressed={liked} className={`inline-flex items-center gap-2 transition-colors disabled:opacity-60 ${liked ? 'text-rose-300' : 'hover:text-rose-200'}`}><Heart className="h-4 w-4" fill={liked ? 'currentColor' : 'none'} />{liked ? (zh ? '已点赞' : 'Liked') : (zh ? '点赞' : 'Like')}<span className="tabular-nums">{counts?.likes.toLocaleString() ?? '—'}</span></button>}
-                <span className="inline-flex items-center gap-2" title={zh ? '按浏览器去重的累计访客数' : 'Total visitors, deduplicated by browser'}><Eye className="h-4 w-4" />{zh ? '访客' : 'Visitors'}<span className="tabular-nums">{counts?.visitors.toLocaleString() ?? '—'}</span></span>
+                {enableLikes && <button type="button" onClick={toggleLike} disabled={busy} aria-pressed={liked} className={`inline-flex items-center gap-2 transition-colors disabled:opacity-60 ${liked ? 'text-rose-300' : 'hover:text-rose-200'}`}><Heart className="h-4 w-4" fill={liked ? 'currentColor' : 'none'} />{liked ? (zh ? '已点赞' : 'Liked') : (zh ? '点赞' : 'Like')}</button>}
+                <span className="inline-flex items-center gap-2" title={zh ? '访客' : 'Visitors'}><Eye className="h-4 w-4" />{zh ? '访客' : 'Visitors'}</span>
                 {statisticsError && <span role="status" className="text-xs text-white/65">{zh ? '统计暂不可用' : 'Statistics unavailable'}</span>}
             </div>
         </div>
