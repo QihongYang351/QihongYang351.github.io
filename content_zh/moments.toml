@@ -10,14 +10,6 @@ sort_date = "2026-05"
 position = "50% 48%"
 
 [[items]]
-image = "/moments/tsinghua-gate-2026-05.jpg"
-title = "清华大学二校门"
-location = "中国北京海淀 · 清华大学"
-date = "2026年5月"
-sort_date = "2026-05"
-position = "70% 50%"
-
-[[items]]
 image = "/moments/nwafu-graduation-2025-06.jpg"
 title = "毕业时刻：西北农林科技大学校史馆"
 location = "中国陕西杨凌 · 西北农林科技大学"
@@ -26,28 +18,20 @@ sort_date = "2025-06"
 position = "50% 50%"
 
 [[items]]
-image = "/moments/harbin-station-2025-06.jpg"
-title = "哈尔滨站前"
-location = "中国黑龙江哈尔滨 · 哈尔滨站"
-date = "2025年6月"
-sort_date = "2025-06"
-position = "50% 43%"
-
-[[items]]
-image = "/moments/harbin-sophia-2025-06.jpg"
-title = "圣索菲亚教堂"
-location = "中国黑龙江哈尔滨道里区 · 圣索菲亚教堂"
-date = "2025年6月"
-sort_date = "2025-06"
-position = "50% 45%"
-
-[[items]]
 image = "/moments/harbin-trip-2025-06.jpg"
 title = "哈尔滨旅行"
 location = "中国黑龙江哈尔滨"
 date = "2025年6月"
 sort_date = "2025-06"
 position = "50% 50%"
+
+[[items]]
+image = "/moments/tsinghua-gate-2025-05.jpg"
+title = "清华大学二校门"
+location = "中国北京海淀 · 清华大学"
+date = "2025年5月"
+sort_date = "2025-05"
+position = "70% 50%"
 
 [[items]]
 image = "/moments/tsinghua-forum-2025-05.jpg"
@@ -67,7 +51,7 @@ position = "50% 43%"
 
 [[items]]
 image = "/moments/sysu-exchange-2024-05.jpg"
-title = "中山大学交流时刻"
+title = "杨的笑"
 location = "中国广东广州 · 中山大学政治与公共事务管理学院"
 date = "2024年5月"
 sort_date = "2024-05"
