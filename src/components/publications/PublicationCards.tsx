@@ -54,9 +54,9 @@ export default function PublicationCards({ config }: { config: CardPageConfig })
                     <span className="flex items-center gap-4 shrink-0 text-neutral-500"><span className="text-sm tabular-nums">{group.length}</span><span aria-hidden="true"><Plus className="h-5 w-5 group-open/publication-section:hidden" /><Minus className="hidden h-5 w-5 group-open/publication-section:block" /></span></span>
                 </summary>
                 <div className="divide-y divide-neutral-200 dark:divide-neutral-800">{group.map(item => <article key={item.title} className="py-7 sm:py-8">
-                    <div className={item.journal ? 'grid md:grid-cols-[180px_minmax(0,1fr)] gap-6 items-start' : ''}>
-                        {item.journal && <div className="aspect-[3/4] max-w-[180px] w-full overflow-hidden border border-neutral-200 dark:border-neutral-700">
-                            {item.image ? <Image src={publicPath(item.image)} alt={item.journal} width={180} height={240} className="h-full w-full object-cover" /> : <div className="h-full flex flex-col justify-between bg-neutral-100 dark:bg-neutral-800 p-5">
+                    <div className={item.journal ? 'grid md:grid-cols-[240px_minmax(0,1fr)] gap-6 items-start' : ''}>
+                        {item.journal && <div className="aspect-[4/3] max-w-[240px] w-full overflow-hidden border border-neutral-200 dark:border-neutral-700">
+                            {item.image ? <a href={publicPath(item.image)} target="_blank" rel="noopener noreferrer" aria-label={`${zh ? '查看论文图片：' : 'View publication image: '}${item.title}`} className="block h-full w-full bg-white"><Image src={publicPath(item.image)} alt={item.title} width={240} height={180} className="h-full w-full object-contain" /></a> : <div className="h-full flex flex-col justify-between bg-neutral-100 dark:bg-neutral-800 p-5">
                                 <span className="text-xs tracking-widest uppercase text-neutral-500">{zh ? '期刊' : 'Journal'}</span>
                                 <span className="font-serif text-xl font-bold text-primary leading-snug break-words">{item.journal}</span>
                                 <span className="text-sm text-neutral-500">{item.date}</span>
