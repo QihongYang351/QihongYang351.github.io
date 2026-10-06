@@ -39,6 +39,12 @@ export default function PublicationCards({ config }: { config: CardPageConfig })
                 {years.map(y => <option key={y} value={y}>{y}</option>)}
             </select>
         </div>
+        <details open className="group/papers border-b border-neutral-200 dark:border-neutral-700">
+            <summary className="cursor-pointer list-none flex items-center justify-between gap-4 py-7 [&::-webkit-details-marker]:hidden">
+                <h2 className="text-2xl font-serif font-bold text-primary">{zh ? '论文' : 'Papers'}</h2>
+                <span className="flex items-center gap-4 text-neutral-500"><span className="text-sm">{items.filter(item => item.section !== 'projects').length}</span><Plus className="h-5 w-5 group-open/papers:hidden" /><Minus className="hidden h-5 w-5 group-open/papers:block" /></span>
+            </summary>
+            <div className="pl-3 sm:pl-6">
         {['published', 'forthcoming', 'working'].map(section => {
             const group = items.filter(item => item.section === section);
             if (!group.length) return null;
@@ -81,6 +87,25 @@ export default function PublicationCards({ config }: { config: CardPageConfig })
                 </article>)}</div>
             </details>;
         })}
-        {!items.length && <p className="text-neutral-500">{zh ? '没有找到匹配的文章。' : 'No matching articles.'}</p>}
+            </div>
+        </details>
+        <details open className="group/projects border-b border-neutral-200 dark:border-neutral-700">
+            <summary className="cursor-pointer list-none flex items-center justify-between gap-4 py-7 [&::-webkit-details-marker]:hidden">
+                <h2 className="text-2xl font-serif font-bold text-primary">{zh ? '学生科研项目' : 'Student Research Projects'}</h2>
+                <span className="flex items-center gap-4 text-neutral-500"><span className="text-sm">{items.filter(item => item.section === 'projects').length}</span><Plus className="h-5 w-5 group-open/projects:hidden" /><Minus className="hidden h-5 w-5 group-open/projects:block" /></span>
+            </summary>
+            <div className="pl-3 sm:pl-6 divide-y divide-neutral-200 dark:divide-neutral-800">
+                {items.filter(item => item.section === 'projects').map(item => <article key={item.title} className="py-7">
+                    <span className={`inline-block mb-3 rounded px-2 py-1 text-xs font-medium ${item.role === '主持' || item.role === 'Project Lead' ? 'bg-teal-50 text-teal-700 dark:bg-teal-950 dark:text-teal-300' : 'bg-amber-50 text-amber-700 dark:bg-amber-950 dark:text-amber-300'}`}>{item.role}</span>
+                    <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-2 sm:gap-6">
+                        <h3 className="text-xl font-serif font-bold text-primary leading-relaxed">{item.title}</h3>
+                        <p className="text-sm text-neutral-500 dark:text-neutral-400 shrink-0">{item.date}</p>
+                    </div>
+                    <p className="mt-3 text-neutral-600 dark:text-neutral-400">{item.subtitle}</p>
+                    <p className="mt-2 text-sm text-neutral-500 dark:text-neutral-400">{item.content}</p>
+                </article>)}
+            </div>
+        </details>
+        {!items.length && <p className="text-neutral-500">{zh ? '没有找到匹配的研究成果。' : 'No matching research outputs.'}</p>}
     </div>;
 }

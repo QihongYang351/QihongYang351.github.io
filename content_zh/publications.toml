@@ -1,7 +1,7 @@
 type = "card"
 layout = "publications"
 title = "研究成果"
-description = "已发表文章、待刊文章与工作论文。"
+description = "论文与学生科研项目。"
 
 [[items]]
 section = "forthcoming"
@@ -78,4 +78,41 @@ authors = "赵玉攀，王佳盈，杨其洪，王佳汶，王春澎*"
 subtitle = "岳麓公共治理"
 date = "2026"
 status = "外审中"
+
+
+[[items]]
+stage = "undergraduate"
+section = "projects"
+title = "基于三螺旋理论的农业科技创新人才培养模式研究——以国内三所高水平农业院校为例"
+role = "主持"
+subtitle = "大学生校级（重点）创新训练项目 · 资助金额：5000元 · 优秀结项"
+content = "项目编号：X202210712022 · 西北农林科技大学"
+date = "2021.11–2023.05"
+
+[[items]]
+stage = "undergraduate"
+section = "projects"
+title = "乡村基层数字治理的“下沉”机理与运作逻辑研究——基于漳州市长泰区坂里乡“数字坂里”的实证考察"
+role = "主持"
+subtitle = "第三届费孝通田野调查项目资助计划 · 资助金额：4000元 · 优秀结项"
+content = "上海大学社会学院"
+date = "2023.05–2024.06"
+
+[[items]]
+stage = "undergraduate"
+section = "projects"
+title = "互动式治理何以推动城市社区治理效能提升？——基于全国12省2430份问卷调查的分析"
+role = "参与（2/5）"
+subtitle = "大学生国家级创新训练项目 · 资助金额：20000元 · 优秀结项"
+content = "项目编号：202310712074 · 西北农林科技大学"
+date = "2022.11–2024.05"
+
+[[items]]
+stage = "undergraduate"
+section = "projects"
+title = "“复杂–适应”系统理论视域下数字乡村韧性治理机制"
+role = "参与（2/5）"
+subtitle = "大学生国家级创新训练项目 · 资助金额：20000元 · 优秀结项"
+content = "项目编号：202310712090 · 西北农林科技大学"
+date = "2022.11–2024.05"
 

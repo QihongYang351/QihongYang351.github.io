@@ -1,7 +1,7 @@
 type = "card"
 layout = "publications"
 title = "Publications"
-description = "Published articles, forthcoming work, and manuscripts."
+description = "Papers and student research projects."
 
 [[items]]
 section = "forthcoming"
@@ -78,4 +78,41 @@ authors = "Yupan Zhao, Jiaying Wang, Qihong Yang & Chunpeng Wang*"
 subtitle = "YueLu Public Governance"
 date = "2026"
 status = "Under review"
+
+
+[[items]]
+stage = "undergraduate"
+section = "projects"
+title = "Cultivating Agricultural Science and Technology Innovation Talent through the Triple Helix Model: A Study of Three Leading Agricultural Universities in China"
+role = "Project Lead"
+subtitle = "University-Level Undergraduate Innovation Training Program (Key Project) · Funding: CNY 5,000 · Completed with an Excellent Rating"
+content = "Project No. X202210712022 · Northwest A&F University"
+date = "2021.11–2023.05"
+
+[[items]]
+stage = "undergraduate"
+section = "projects"
+title = "Bringing Digital Governance to the Rural Grassroots: Mechanisms and Operational Logic of Digital Banli in Changtai District, Zhangzhou"
+role = "Project Lead"
+subtitle = "Third Fei Xiaotong Fieldwork Funding Program · Funding: CNY 4,000 · Completed with an Excellent Rating"
+content = "School of Sociology and Political Science, Shanghai University"
+date = "2023.05–2024.06"
+
+[[items]]
+stage = "undergraduate"
+section = "projects"
+title = "How Does Interactive Governance Improve Urban Community Governance Effectiveness? Evidence from 2,430 Survey Responses across 12 Provinces in China"
+role = "Team Member (2/5)"
+subtitle = "National Undergraduate Innovation Training Program · Funding: CNY 20,000 · Completed with an Excellent Rating"
+content = "Project No. 202310712074 · Northwest A&F University"
+date = "2022.11–2024.05"
+
+[[items]]
+stage = "undergraduate"
+section = "projects"
+title = "Resilient Governance Mechanisms in Digital Villages from a Complex Adaptive Systems Perspective"
+role = "Team Member (2/5)"
+subtitle = "National Undergraduate Innovation Training Program · Funding: CNY 20,000 · Completed with an Excellent Rating"
+content = "Project No. 202310712090 · Northwest A&F University"
+date = "2022.11–2024.05"
 

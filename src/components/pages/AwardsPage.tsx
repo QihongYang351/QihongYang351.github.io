@@ -7,7 +7,6 @@ import { useLocaleStore } from '@/lib/stores/localeStore';
 export default function AwardsPage({ config }: { config: CardPageConfig }) {
     const zh = useLocaleStore(state => state.locale) === 'zh';
     const groups = [
-        { title: zh ? '学生科研项目' : 'Student Research Projects', sections: ['学生科研项目', 'Student Research Projects'] },
         { title: zh ? '奖学金' : 'Scholarships', sections: ['奖学金', 'Scholarships'] },
         { title: zh ? '荣誉称号' : 'Honorary Titles', sections: ['荣誉称号', 'Honorary Titles'] },
         { title: zh ? '科研竞赛与论文荣誉' : 'Competitions & Thesis Honors', sections: ['全国竞赛与社会实践', 'National Competitions & Social Practice', '省级竞赛', 'Provincial Competitions', '校际竞赛', 'Inter-University Competitions', '校内奖项与毕业论文荣誉', 'University Awards & Thesis Honors'] },

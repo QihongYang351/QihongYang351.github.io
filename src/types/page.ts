@@ -16,6 +16,7 @@ export interface TextPageConfig extends BasePageConfig {
 }
 
 export interface CardItem {
+    role?: string;
     stage?: 'undergraduate' | 'masters';
     section?: string;
     journal?: string;
