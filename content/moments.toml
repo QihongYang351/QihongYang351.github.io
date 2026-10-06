@@ -1,10 +1,74 @@
 title = "Moments"
-description = "Places, people, and experiences beyond research."
-items = []
+description = "Moments from academic exchanges, travels, and everyday life."
 
-# Add photos here after placing image files in public/moments/.
-# [[items]]
-# image = "/moments/photo.jpg"
-# title = "Photo caption"
-# location = "City, Country"
-# date = "2026"
+[[items]]
+image = "/moments/ruc-workshop-2026-05.jpg"
+title = "Chinese Public Administration: “Small Questions, Big Issues” Workshop"
+location = "Renmin University of China · Beijing, China"
+date = "May 2026"
+sort_date = "2026-05"
+position = "50% 48%"
+
+[[items]]
+image = "/moments/tsinghua-gate-2026-05.jpg"
+title = "Tsinghua University’s Old Gate"
+location = "Tsinghua University · Haidian, Beijing, China"
+date = "May 2026"
+sort_date = "2026-05"
+position = "70% 50%"
+
+[[items]]
+image = "/moments/nwafu-graduation-2025-06.jpg"
+title = "Graduation at Northwest A&F University’s History Museum"
+location = "Northwest A&F University · Yangling, Shaanxi, China"
+date = "June 2025"
+sort_date = "2025-06"
+position = "50% 50%"
+
+[[items]]
+image = "/moments/harbin-station-2025-06.jpg"
+title = "Outside Harbin Railway Station"
+location = "Harbin Railway Station · Harbin, Heilongjiang, China"
+date = "June 2025"
+sort_date = "2025-06"
+position = "50% 43%"
+
+[[items]]
+image = "/moments/harbin-sophia-2025-06.jpg"
+title = "Saint Sophia Cathedral"
+location = "Saint Sophia Cathedral · Daoli, Harbin, China"
+date = "June 2025"
+sort_date = "2025-06"
+position = "50% 45%"
+
+[[items]]
+image = "/moments/harbin-trip-2025-06.jpg"
+title = "A Moment in Harbin"
+location = "Harbin, Heilongjiang, China"
+date = "June 2025"
+sort_date = "2025-06"
+position = "50% 50%"
+
+[[items]]
+image = "/moments/tsinghua-forum-2025-05.jpg"
+title = "“Zhaiming Duxing” Doctoral Forum at Tsinghua University"
+location = "School of Social Sciences, Tsinghua University · Beijing, China"
+date = "May 2025"
+sort_date = "2025-05"
+position = "50% 50%"
+
+[[items]]
+image = "/moments/shanghai-disney-2024-10.jpg"
+title = "Shanghai Disneyland"
+location = "Shanghai Disneyland · Pudong, Shanghai, China"
+date = "October 2024"
+sort_date = "2024-10"
+position = "50% 43%"
+
+[[items]]
+image = "/moments/sysu-exchange-2024-05.jpg"
+title = "Academic Exchange at Sun Yat-sen University"
+location = "School of Government, Sun Yat-sen University · Guangzhou, China"
+date = "May 2024"
+sort_date = "2024-05"
+position = "72% 32%"
