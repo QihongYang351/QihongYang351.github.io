@@ -1,5 +1,5 @@
 type = "card"
-title = "学术服务"
+title = "课外活动"
 layout = "timeline"
 
 [[items]]
@@ -11,3 +11,18 @@ date = "2023–至今"
 title = "公共管理共同体"
 subtitle = "乡村治理小组组长"
 date = "2024–至今"
+
+[[items]]
+title = "公共事业管理2102班"
+subtitle = "班长 · 西北农林科技大学人文社会发展学院"
+date = "2022–2023"
+
+[[items]]
+title = "团委组织部"
+subtitle = "负责人 · 西北农林科技大学人文社会发展学院"
+date = "2022–2023"
+
+[[items]]
+title = "团委组织部"
+subtitle = "志愿者 · 西北农林科技大学人文社会发展学院"
+date = "2021–2022"

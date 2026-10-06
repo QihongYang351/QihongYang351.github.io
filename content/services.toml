@@ -1,5 +1,5 @@
 type = "card"
-title = "Academic Service"
+title = "Extracurricular Activities"
 layout = "timeline"
 
 [[items]]
@@ -11,3 +11,18 @@ date = "2023–Present"
 title = "China Public Management Community"
 subtitle = "Leader of the Rural Governance Group"
 date = "2024–Present"
+
+[[items]]
+title = "Public Affairs Administration, Class 2102"
+subtitle = "Class President · College of Humanities and Social Development, Northwest A&F University"
+date = "2022–2023"
+
+[[items]]
+title = "Organization Department, Communist Youth League Committee"
+subtitle = "Department Head · College of Humanities and Social Development, Northwest A&F University"
+date = "2022–2023"
+
+[[items]]
+title = "Organization Department, Communist Youth League Committee"
+subtitle = "Volunteer · College of Humanities and Social Development, Northwest A&F University"
+date = "2021–2022"

@@ -48,13 +48,13 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "Awards"
+title = "Honors & Awards"
 type = "page"
 target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "Academic Service"
+title = "Extracurricular Activities"
 type = "page"
 target = "services"
 href = "/services"

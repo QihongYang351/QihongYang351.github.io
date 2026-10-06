@@ -1,6 +1,6 @@
 type = "card"
 layout = "awards"
-title = "奖项与荣誉"
+title = "荣誉与奖项"
 
 [[items]]
 stage = "undergraduate"
