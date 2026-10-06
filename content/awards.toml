@@ -4,6 +4,38 @@ title = "Awards & Honors"
 
 [[items]]
 stage = "undergraduate"
+section = "Student Research Projects"
+title = "Cultivating Agricultural Science and Technology Innovation Talent through the Triple Helix Model: A Study of Three Leading Agricultural Universities in China"
+subtitle = "University-Level Undergraduate Innovation Training Program (Key Project) · Project Lead · Funding: CNY 5,000 · Completed with an Excellent Rating"
+content = "Project No. X202210712022 · Northwest A&F University"
+date = "2021.11–2023.05"
+
+[[items]]
+stage = "undergraduate"
+section = "Student Research Projects"
+title = "Bringing Digital Governance to the Rural Grassroots: Mechanisms and Operational Logic of Digital Banli in Changtai District, Zhangzhou"
+subtitle = "Third Fei Xiaotong Fieldwork Funding Program · Project Lead · Funding: CNY 4,000 · Completed with an Excellent Rating"
+content = "School of Sociology and Political Science, Shanghai University"
+date = "2023.05–2024.06"
+
+[[items]]
+stage = "undergraduate"
+section = "Student Research Projects"
+title = "How Does Interactive Governance Improve Urban Community Governance Effectiveness? Evidence from 2,430 Survey Responses across 12 Provinces in China"
+subtitle = "National Undergraduate Innovation Training Program · Team Member (2/5) · Funding: CNY 20,000 · Completed with an Excellent Rating"
+content = "Project No. 202310712074 · Northwest A&F University"
+date = "2022.11–2024.05"
+
+[[items]]
+stage = "undergraduate"
+section = "Student Research Projects"
+title = "Resilient Governance Mechanisms in Digital Villages from a Complex Adaptive Systems Perspective"
+subtitle = "National Undergraduate Innovation Training Program · Team Member (2/5) · Funding: CNY 20,000 · Completed with an Excellent Rating"
+content = "Project No. 202310712090 · Northwest A&F University"
+date = "2022.11–2024.05"
+
+[[items]]
+stage = "undergraduate"
 section = "Conference Presentations"
 title = "10th Journal of Public Administration Young Scholars Forum"
 subtitle = "Oral Presentation · Center for Chinese Public Administration Research, Sun Yat-sen University · Editorial Office of the Journal of Public Administration"
